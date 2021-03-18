@@ -68,6 +68,11 @@ body {
   font-style: normal;
 }
 
+.tags:not(:last-child):after {
+  content: ", ";
+  font-style: normal;
+}
+
 #loadQuote {
   position: fixed;
   width: 12em;
